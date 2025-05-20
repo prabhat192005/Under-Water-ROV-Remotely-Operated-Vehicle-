@@ -2,7 +2,13 @@
 
 ### Project Overview
 
-This project involves the development of an underwater Remotely Operated Vehicle (ROV) as a preliminary stage in building a fully autonomous underwater vehicle (AUV). The ROV is controlled via serial communication using Arduino Nano as the transmitter and Arduino Uno as the receiver. The system is currently in the development stage, and the circuit diagram is attached to provide a detailed layout of the components and their connections.
+The Underwater ROV (Remotely Operated Vehicle) is a low-cost, DIY underwater exploration robot designed for real-time remote operation. The system uses Arduino Nano as the transmitter (surface controller) and Arduino Uno as the receiver (onboard controller) to send and receive commands through a wired tether.
+
+This ROV is capable of navigating underwater environments using multiple thrusters and can stream live video using a camera module mounted on the vehicle. It also supports integration with various sensors to monitor underwater conditions like depth, temperature, and pressure.
+
+Communication between the surface station and the ROV is achieved via serial communication over the tether cable, ensuring reliable control and feedback. The vehicle is powered by a rechargeable battery and can be controlled via a joystick or a PC interface.
+
+This project is aimed at students, hobbyists, and researchers who are exploring underwater robotics and want a modular, affordable platform for learning and experimentation.
 
 ### Circuit Components:
 
@@ -12,6 +18,21 @@ This project involves the development of an underwater Remotely Operated Vehicle
 * **ESC (Electronic Speed Controller) x 2:** Controls the two brushless motors for vertical and horizontal thrust.
 * **AA Battery Pack:** Power source for the joystick module.
 * **Joystick Module x 2:** Used to control motor speed and direction (one for propulsion, one for thrust).
+
+### Features:
+
+* Movement Control – Multi-directional movement using thrusters (forward, backward, ascend, descend, rotate).
+
+* Live Video Streaming – Real-time underwater video using a USB or Raspberry Pi camera module.
+
+* Tethered Communication – Stable and responsive command/data communication between the ROV and surface controller.
+
+* Sensor Integration – Optional modules for depth, temperature, and pressure sensing.
+
+* Modular Design – Easily upgradeable frame and electronics.
+
+* ESP32/Raspberry Pi Integration – Control logic and video streaming using ESP32 (for controls) and Raspberry Pi (for camera + network).
+
 
 ### Circuit Connections:
 
@@ -52,6 +73,16 @@ This project involves the development of an underwater Remotely Operated Vehicle
 ![IMG-20241217-WA0023](https://github.com/user-attachments/assets/43039118-1e6b-4d16-95b7-95cb025611f5)
 
 ![Remote](https://github.com/user-attachments/assets/d9ac87d5-aa34-462a-82e2-f8d6d9bc1cc0)
+
+### Applications
+
+* Underwater Inspection
+
+* Marine Research and Exploration
+
+* Search & Rescue Missions
+
+* Educational and Academic Projects
 
 
 
